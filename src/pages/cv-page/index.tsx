@@ -46,13 +46,13 @@ export const CvPage: React.FC = () => {
         </Document>
       </div>
 
-      <div className="text-center mb-4">
+      <div className="text-center mb-4 justify-center items-center">
         <button
           onClick={() => changePage(-1)}
           disabled={pageNumber <= 1}
           className="px-3 py-1 mr-2 bg-gray-300 rounded disabled:opacity-50"
         >
-          Previous
+          Prev
         </button>
         <button
           onClick={() => changePage(1)}
@@ -61,7 +61,7 @@ export const CvPage: React.FC = () => {
         >
           Next
         </button>
-        <p className="mt-2">
+        <p className="mt-2 text-center">
           Page {pageNumber} of {numPages}
         </p>
       </div>
