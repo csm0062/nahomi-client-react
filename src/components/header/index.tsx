@@ -16,8 +16,8 @@ export const Header = () => {
   return (
     <header className="flex items-center justify-between px-6 py-4 border-b bg-white sticky top-0 z-50">
       {/* 로고 / 이름 */}
-      <Link to="/" className="text-xl font-bold text-gray-800">
-        Seula's Lab
+      <Link to="/" className="text-5xl font-bold text-gray-800">
+        SEULA LEE
       </Link>
 
       {/* 네비게이션 */}
@@ -27,9 +27,10 @@ export const Header = () => {
             key={item.path}
             to={item.path}
             className={clsx(
-              'font-semibold text-gray-600 hover:text-blue-500 transition-colors',
-              location.pathname === item.path &&
-                'border-b-2 border-blue-500 pb-1',
+              'font-semibold hover:text-gray-800 transition-colors',
+              location.pathname === item.path
+                ? 'text-gray-800'
+                : 'text-gray-400',
             )}
           >
             {item.label}

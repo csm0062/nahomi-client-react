@@ -1,9 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
 
-/* * {
-  font-family: 'Inter', sans-serif;
-} */
-
 @font-face {
   font-family: 'InterVariable';
   src: url('../../assets/InterVariable.ttf') format('truetype');
@@ -16,6 +12,42 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'JalnanGothic';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OfficerSans';
+  src: url('/src/assets/fonts/OfficerSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OfficerSans';
+  src: url('/src/assets/fonts/OfficerSans-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OfficerSans';
+  src: url('/src/assets/fonts/OfficerSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OfficerSans';
+  src: url('/src/assets/fonts/OfficerSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
 * {
-  /* font-family: 'InterVariable', sans-serif; */
+  font-family: 'OfficerSans', sans-serif;
 }
