@@ -9,6 +9,8 @@ export const Header = () => {
     { label: 'Home', path: '/' },
     { label: 'CV', path: '/cv' },
     { label: 'Research', path: '/research' },
+    { label: 'Projects', path: '/projects' },
+    { label: 'Articles', path: '/articles' },
   ];
 
   return (

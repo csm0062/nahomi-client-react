@@ -6,9 +6,13 @@ import { Header } from '@/components/header';
 export const App = () => {
   return (
     <React.Fragment>
-      <Header />
-      <Routing />
-      <Footer />
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routing />
+        </main>
+        <Footer />
+      </div>
     </React.Fragment>
   );
 };
