@@ -1,0 +1,66 @@
+@theme {
+  /* color */
+  --color-primary: #c31f2b;
+
+  --color-primary-light: #eba9ad;
+  --color-primary-dark: #912633;
+  --color-primary-trans: #edd8d9;
+
+  --color-secondary: #e8e0e1;
+  --color-secondary-light: #f3efee;
+
+  --color-sub: #09d5e6;
+  --color-sub-light: #fff8f3;
+
+  --color-error: #d94e46;
+  --color-warning: #ffd460;
+
+  --color-black: #1e1e1e;
+  --color-black-light: #24272f;
+  --color-black-alt: #757575;
+  --color-white: #fdfdfd;
+
+  --text-xl: 24px;
+  --text-lg: 16px;
+  --text-md: 14px;
+  --text-sm: 12px;
+  --text-xs: 10px;
+
+  --text-bold: 700;
+  --text-reguler: 500;
+
+  --font-inter: 'Inter', sans-serif;
+  --font-signpainter: 'SignPainter', sans-serif;
+}
+
+@layer utilities {
+  .text-display {
+    font-size: var(--text-xl);
+    font-weight: var(--text-reguler);
+    font-family: var(--font-inter);
+  }
+
+  .text-title {
+    font-size: var(--text-lg);
+    font-weight: var(--text-bold);
+    font-family: var(--font-inter);
+  }
+
+  .text-body {
+    font-size: var(--text-md);
+    font-weight: var(--text-reguler);
+    font-family: var(--font-inter);
+  }
+
+  .text-detail {
+    font-size: var(--text-xs);
+    font-weight: var(--text-reguler);
+    font-family: var(--font-inter);
+  }
+
+  .text-point {
+    font-size: var(--text-xl);
+    font-weight: var(--text-bold);
+    font-family: var(--font-signpainter);
+  }
+}

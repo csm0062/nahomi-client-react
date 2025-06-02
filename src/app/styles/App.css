@@ -1,0 +1,8 @@
+.scroll-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: none;
+}
+.bg-gradient {
+  background: linear-gradient(180deg, #edd8d9 0%, #f3efee 100%);
+}

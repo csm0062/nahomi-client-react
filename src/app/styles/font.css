@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+/* * {
+  font-family: 'Inter', sans-serif;
+} */
+
+@font-face {
+  font-family: 'InterVariable';
+  src: url('../../assets/InterVariable.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SignPainter';
+  src: url('../../assets/SignPainter.ttc') format('truetype');
+  font-display: swap;
+}
+
+* {
+  /* font-family: 'InterVariable', sans-serif; */
+}

@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@import './App.css';
+@import './tailwind.config.css';
+@import './font.css';
+html,
+body,
+#root {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  color: #24272f;
+  background: #f3efee;
+}
+
+html,
+section {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+main,
+div {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
