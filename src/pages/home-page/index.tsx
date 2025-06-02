@@ -90,7 +90,7 @@ export const HomePage: React.FC = () => {
           <br />
           LinkedIn:{' '}
           <a
-            // href="https://www.linkedin.com/in/seulalee/"
+            href="https://www.linkedin.com/in/seula/"
             target="_blank"
             rel="noreferrer"
             className="underline"
